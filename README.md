@@ -1,3 +1,3 @@
 ### Vancouver's Hackathon App
 
-https://maplehacks.netlify.app 
+https://maplehack.netlify.app 
