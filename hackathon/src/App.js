@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Wheel from './components/spinner';
+import logo from './components/dashboard.png'
 
 function App() {
-
   return (
     <div className="App">
+      <img src={logo}alt="Dashboard"/>
       <header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Wheel items={['2000 Bonus Points', '$2 Off a Hotdog', '$1 off Haagen-Daaz', '$1 Pizza Slice', '$1 Medium Slurpee', 'Free Car Wash']} />
+
       </header>
     </div>
   );

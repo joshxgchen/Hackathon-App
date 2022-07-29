@@ -7,6 +7,14 @@
         "version": 1,
         "index": 89
       }
+    ],
+    "hackathon/src/App.js": [
+      {
+        "id": "2fc113f5-6022-4e9c-9fe0-df8857fb74ae",
+        "line": 11,
+        "version": 582,
+        "index": 205
+      }
     ]
   }
 }
